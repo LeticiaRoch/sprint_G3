@@ -1,0 +1,9 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-principal ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
