@@ -45,3 +45,11 @@ section.identificacao .habitos-mosquito-container{
     padding: 10px;
     text-align: center;
 }
+.imagens-focos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.focos{
+    text-align: center;
+}
