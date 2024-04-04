@@ -89,10 +89,27 @@ section.identificacao .habitos-mosquito-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
+}
+.imagens-focos img{
+    border-radius: 2vw;
+    width: 25vw;
 }
 .focos{
     text-align: center;
     max-width: 100vw;
+    background-color: #0062FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2vw 0;
+    gap: 2vw;
+}
+.focos h1{
+    font-size: 3vw;
+}
+.focos p{
+    font-size: 1.7vw;
 }
 .botao{
    background-color: #004cc7;
