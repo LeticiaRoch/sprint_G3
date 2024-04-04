@@ -15,3 +15,9 @@ h6{
   
     background-color: rgba(117, 116, 116, 0.5);
 }
+.hover-up{
+    transition: transform 0.3s ease; 
+}
+.hover-up:hover{
+    transform: translateY(-5px);
+}
