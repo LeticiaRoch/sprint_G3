@@ -92,6 +92,7 @@ section.identificacao .habitos-mosquito-container{
 }
 .focos{
     text-align: center;
+    max-width: 100vw;
 }
 .botao{
    background-color: #004cc7;
