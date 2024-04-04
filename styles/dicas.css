@@ -59,12 +59,12 @@ section.identificacao .habitos-mosquito-container{
 .botao{
    background-color: #004cc7;
    color: aliceblue;
-   height: 3.2vw;
+   height: 4vw;
    padding: 0.5vw 0.8vw;
-   border-radius: 1.2vw;
+   border-radius: 2vw;
    box-shadow: 0 0 4px 1px #c6c6c7;
    border:none;
-   font-size: 1.2vw;
+   font-size: 2vw;
    outline: none;
    cursor: pointer;
 
