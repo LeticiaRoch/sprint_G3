@@ -6,7 +6,7 @@
     <link rel="icon" type="image/svg" href="assets/img/Ícone.svg">
      <link rel="stylesheet" href="styles/menu-principal.css">
 
-    <title>Document</title>
+    <title>Cadastro de Pessoas</title>
 </head>
 <body>
  <header>
@@ -22,5 +22,123 @@
         </ul>
     </nav>
     </header>
+    <div>
+        <div>
+            <h1>Cadastro de Pessoas</h1>  
+        </div>
+        <div>
+            <button> <i></i> Limpar </button>
+            <button><i></i> Salvar </button>
+        </div>
+    </div>
+    <div>
+        <form>
+            <div>
+                <label>Nome Completo</label>
+                <input type="text" autocomplete="off" required="">
+            </div>
+            <div>
+                <label>CPF</label>
+                <input type="text" autocomplete="off" required="">
+            </div>
+            <div>
+                <label>Data do Sintoma</label>
+                <input type="text" autocomplete="off" required="">
+            </div>
+            <div>
+                <label>Condição do Caso</label>
+                <select>
+                    <option></option>
+                    <option>Confirmado</option>
+                    <option>Infectado</option>
+                </select>
+            </div>
+            <div>
+                <label for="cep">CEP</label>
+                <input type="text" autocomplete="off" maxlength="8" required>
+            </div>
+            <div>
+                <label for="logradouro">Logradouro</label>
+                <input type="text" autocomplete="off" maxlength="25" required> 
+            </div>
+            <div>
+                <label for="numero">Nº</label>
+                <input type="text" autocomplete="off" maxlength="6" required> 
+            </div>
+            <div>
+                <label for="bairro">Bairro</label>
+                <input type="text" autocomplete="off" maxlength="50" required>
+            </div>
+            <div>
+                <label for="cidade">Cidade</label>
+                <input type="text" autocomplete="off" maxlength="70" required>   
+            </div>
+            <div>
+                <label for="uf">UF</label>
+                <input type="text" autocomplete="off" maxlength="2" required>
+            </div>
+            <div>
+                <label for="complemento">Complem.</label>
+                <input type="text" autocomplete="off" maxlength="15" placeholder="-">    
+            </div>
+        </div>
+        <div>
+            <label>Quem é você?</label>
+            <select>
+                <option></option>
+                <option>Morador</option>
+                <option>Vizinho</option>
+            </select>
+        </div>
+        <div>
+            <label>Quantas pessoas residem no local?</label>
+            <input type="number" autocomplete="off" required="">
+        </div>
+        <div>
+            <label>Quantas pessoas estão infectadas?</label>
+            <input type="number" autocomplete="off" required="">
+        </div>
+        <div>
+            <label>Tomou conhecimento de outros moradores no mesmo quarteirão com os mesmos sintomas?</label>
+            <select>
+                <option></option>
+                <option>SIM</option>
+                <option>NÃO</option>
+            </select>
+        </div>
+        <div>
+            <label>Quantos?</label>
+            <select>
+                <option></option>
+                <option>Até 3</option>
+                <option>Mais de 3</option>
+            </select>
+        </div>
+        <div>
+            <label>Quais são os principais sintomas?</label>
+            <input type="checkbox" name="sintoma1" value="sintoma1">
+            <label for="sintoma1">Febre Alta (acima 38°)</label>
+            <input type="checkbox" name="sintoma2" value="sintoma2">
+            <label for="sintoma2">Dor de Cabeça</label>
+            <input type="checkbox" name="sintoma3" value="sintoma3">
+            <label for="sintoma3">Dor no Corpo</label>
+            <input type="checkbox" name="sintoma4" value="sintoma4">
+            <label for="sintoma4">Dor nas Articulações</label>
+            <input type="checkbox" name="sintoma5" value="sintoma5">
+            <label for="sintoma5">Vômito</label>
+            <input type="checkbox" name="sintoma6" value="sintoma6">
+            <label for="sintoma6">Diarreia</label>
+            <input type="checkbox" name="sintoma7" value="sintoma7">
+            <label for="sintoma7">Manchas no Corpo</label>
+            <input type="checkbox" name="sintoma8" value="sintoma8">
+            <label for="sintoma8">Mal Estar</label>
+            <input type="checkbox" name="sintoma9" value="sintoma9">
+            <label for="sintoma9">Fadiga</label>
+            <input type="checkbox" name="sintoma10" value="sintoma10">
+            <label for="sintoma10">Outros</label>
+        </div>
+
+        </form>
+    </div>
 </body>
 </html>
