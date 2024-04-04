@@ -1,0 +1,21 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5vw;
+    align-items: center;
+    background-color:#0062FF ;
+    padding: 2vw 0;
+    border-top: solid 1px aliceblue;
+}
+footer div ul{
+    display: flex;
+    gap: 2vw;
+    list-style: none;
+    
+}
+footer div ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
