@@ -1,0 +1,17 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.overlay{
+  
+    background-color: rgba(117, 116, 116, 0.55);
+}
