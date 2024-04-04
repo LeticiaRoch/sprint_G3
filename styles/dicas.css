@@ -2,12 +2,17 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    max-width: 100vw;
 }
 main
-{
+{   padding: 0;
+    margin: 0;
     display: flex;
+    width: 100%;
     max-width: 100vw;
-    padding: 0px 10px;
+    justify-content: center;
+    align-items: center;
+    min-height: 36vw;
 }
 main .problema-serio{
     width: 50%;
@@ -16,15 +21,13 @@ main .problema-serio{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    
+    
 }
-main .main-banner{
-    width: 50%;
-    display: flex;
-    justify-content: end;
-  
-}
-main .main-banner img{
-    width: 90%;
+main .problema-serio h1{
+  font-size: 6vw;
+    
+    
 }
 section.identificacao{
     display: flex;
@@ -52,4 +55,37 @@ section.identificacao .habitos-mosquito-container{
 }
 .focos{
     text-align: center;
+}
+.botao{
+   background-color: #004cc7;
+   color: aliceblue;
+   height: 4vw;
+   padding: 0.5vw 0.8vw;
+   border-radius: 2vw;
+   box-shadow: 0 0 4px 1px #c6c6c7;
+   border:none;
+   font-size: 2vw;
+   outline: none;
+   cursor: pointer;
+
+}
+.botao:hover{
+    background-color:  #0062FF ;
+    color: rgb(255, 255, 255);
+}
+.container-red{
+    background-image: url('../assets/img/banner-dicas.jpg');
+    
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+.container-red h1{
+    color:#f51818;
+     font-weight: 800;
+}
+.container-red h2{
+    color: aliceblue;
+    text-shadow: rgb(253, 249, 249, 0.5) 1px 1px 1px;
+    font-weight: 500;
 }
