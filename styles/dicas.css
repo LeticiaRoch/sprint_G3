@@ -32,8 +32,21 @@ main
      box-shadow: inset 0 0 8px 4px #f5f3f4;
 }
 
-i{
+i.fa-moon{
+    color: rgb(0, 0, 0);
+    font-size: 3vw;
+}
+i.fa-sun{
     color: aliceblue;
+    font-size: 3vw;
+}
+i.fa-moon:hover{
+    color: aliceblue;
+    font-size: 3vw;
+}
+i.fa-sun:hover{
+    color: rgb(0, 0, 0);
+    font-size: 3vw;
 }
 main .problema-serio{
     width: 50%;
