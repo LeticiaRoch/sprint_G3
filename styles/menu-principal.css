@@ -31,7 +31,7 @@ header{
 }
 header img{
     color: rgb(240, 248, 255);
-    width: 65px;
+    width: 5vw;
 }
 .menu-principal button {
     background-color: aliceblue;
