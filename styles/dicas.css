@@ -77,11 +77,11 @@ section.identificacao .habitos-mosquito-container{
     background-image: url('../assets/img/banner-dicas.jpg');
     
     background-size: cover;
-    background-position: top;
+    background-position: top right;
     background-attachment: fixed;
 }
 .container-red h1{
-    color:#f51818;
+    color: #f60000;
      font-weight: 800;
 }
 .container-red h2{
